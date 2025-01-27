@@ -11,13 +11,17 @@ export default function Home() {
         <li>You must use the useReducer hook.</li>
         <li>Display the output in a list</li>
       </ol>
+      <br />
       <code>
-        <ul style={{ marginTop: 32 }}>
-          <p>Example output</p>
+        <p>Example output</p>
+        <br/ >
+        <ul>
           <p>Favorite foods</p>
           <li>Food: pizza</li>
           <li>Food: tacos</li>
           <li>Food: sushi</li>
+        </ul>
+        <ul style={{ marginTop: 32 }}>
           <p>Favorite colors</p>
           <li>Color: blue</li>
           <li>Color: red</li>
